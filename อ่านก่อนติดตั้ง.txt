@@ -1,5 +1,10 @@
-﻿LumiDash · คู่มือสั้นสำหรับผู้เล่น
-==================================
+﻿LumiDash · คู่มือสั้นสำหรับผู้เล่น · Player guide · 玩家簡易說明
+====================================================================
+
+  ภาษาไทย ..... อยู่ด้านล่างนี้
+  English ..... further down: "LumiDash · Player guide"
+  繁體中文 ..... 在最後：「LumiDash · 玩家簡易說明」
+
 
 LumiDash เป็นโปรแกรมแฟนเมดสำหรับเล่น Lumivara Online หลายบัญชี ไม่เป็นทางการ ไม่เกี่ยวข้องกับผู้พัฒนาเกม
 
@@ -37,8 +42,6 @@ LumiDash เป็นโปรแกรมแฟนเมดสำหรับ�
     ทำทีละบัญชี
   • login แล้ว LumiDash จำไว้ให้ ครั้งต่อไปกด "เปิด" ก็เข้าเกมได้เลย
   • เปลี่ยนภาษา (ไทย / English / 繁體中文): ปุ่ม "ตั้งค่า" มุมขวาบนของ Dashboard › ช่องแรก "ภาษา · Language · 語言"
-    (English: Settings, top right of the Dashboard › first row "ภาษา · Language · 語言" › English)
-    (繁體中文：Dashboard 右上角的「設定」› 第一列「ภาษา · Language · 語言」› 繁體中文。Windows 是中文的電腦，第一次開啟就是中文)
   • LumiDash ตัวนี้เปิดเกมผ่านลิงก์ชวนเพื่อนของคนที่ส่งโปรแกรมให้ (เหมือนกดลิงก์ "ชวนเพื่อน" ของเกม)
     ถ้าเป็นไอดีใหม่ (เริ่มเล่นไม่เกิน 7 วัน) แล้วเติมเงินในเกมรวมครบ 600 บาท เกมให้ EXP Scroll x2 + Drop Scroll x2 กับคุณ
     และให้รางวัลกับคนที่ชวน · ไอดีที่เล่นมาเกิน 7 วัน หรือผูกโค้ดคนอื่นไว้แล้ว ไม่มีผลอะไร
@@ -78,7 +81,7 @@ LumiDash เป็นโปรแกรมแฟนเมดสำหรับ�
     Auto Play น่าจะหยุด (ไม่ได้ตีและไม่ได้ใช้สกิลอะไรเลย 5 นาที), มีคนกระซิบ, มีคนชวนเข้าปาร์ตี้, ไอเทมใกล้หมด
   • ระหว่างที่ยังมีเรื่อง ไอคอนมุมขวาล่างจะมีจุดแดง คลิกแจ้งเตือนเพื่อไปที่หน้าต่างเกมของบัญชีนั้น
   • เฝ้ายาหรือไอเทม: Dashboard › แท็บ "กระเป๋า" › กดที่ไอเทม › ติ๊ก "เตือนเมื่อน้อยกว่า" แล้วใส่จำนวน
-  • ยาที่ใช้ไป: แท็บ "กระเป๋า" บอกว่ายาแต่ละชนิดใช้กี่ขวดต่อชั่วโมง และจะหมดในอีกนานแค่ไหน เริ่มแสดงเมื่อเล่นครบ 5 นาที
+  • ยาที่ใช้ไป: แท็บ "กระเป๋า" บอกว่ายาแต่ละชนิดใช้กี่ขวดต่อชั่วโมง เก็บได้เท่าไร และจะหมดในอีกนานแค่ไหน เริ่มแสดงเมื่อเล่นครบ 5 นาที
   • แจ้งเตือนเข้า Telegram ด้วยก็ได้ (ไม่ใส่ก็ไม่เป็นไร เตือนที่ Windows เหมือนเดิม)
       1) ใน Telegram คุยกับ @BotFather พิมพ์ /newbot ตั้งชื่อบอท จะได้ KEY
       2) หน้าตั้งค่า › แท็บ "Telegram" › วาง KEY แล้วกด "เชื่อมต่อ"
@@ -126,3 +129,268 @@ LumiDash เป็นโปรแกรมแฟนเมดสำหรับ�
   Ctrl+Shift+D   เปิด/ปิด Dashboard
   F11            เต็มจอ
   Ctrl+R         โหลดหน้าเกมใหม่ (ตอนเกมค้าง)
+
+
+
+====================================================================
+
+LumiDash · Player guide
+=======================
+
+LumiDash is a fan-made program for playing Lumivara Online with several accounts. It is unofficial and not affiliated with the game's developer.
+
+  • Several accounts at once, each with its own window and login (more than 3 accounts need Premium, by the game's rules: see 3)
+  • One Dashboard for every account: HP/SP/EXP, EXP per hour, time to the next level, the map, monsters nearby, party, chat, bag
+  • A notification when an account needs you, such as disconnected, dead, or Auto Play stopped
+  • It only reads: it never clicks or plays for you (Auto Play is the game's own)
+
+Questions or problems: ask the person who gave you this program, not the game's staff, as it isn't theirs.
+
+
+1. Installing
+-------------
+  • The latest version is at https://github.com/popodai/lumidash/releases/latest
+    Take the one file "LumiDash-Setup-<version>.exe" ("latest.yml" is for LumiDash's own updates: no need to download it)
+  • Nothing else to install. It runs on 64-bit Windows 10 or Windows 11, with no administrator rights
+    The game runs on Windows' Microsoft Edge WebView2, which Windows 11 has, and almost every Windows 10 PC too
+    If a PC doesn't have it, LumiDash asks on its first start, then downloads it from Microsoft and installs it (needs the internet, a few minutes)
+  • Double-click "LumiDash-Setup-….exe"
+  • If the browser warns that the file isn't commonly downloaded, choose to keep it (Keep / Keep anyway)
+  • Windows may show a blue box, "Windows protected your PC", because the program isn't code-signed yet:
+    press "More info", then the "Run anyway" button that appears
+  • Press Next until it's done (the defaults are fine, no administrator rights needed): you get a LumiDash icon on the Desktop and in the Start menu
+
+
+2. First start and logging in
+-----------------------------
+  • LumiDash opens the Dashboard with "Account 1": press "Open" on it and a game window appears
+  • Log in in that game window, as on the web
+  • Logging in with Google happens in your browser, as Google doesn't allow it inside programs like this
+      1) Press Google's sign-in (Sign in with Google) in the game window: your browser opens LumiDash's page "Sign in to Lumivara Online with Google"
+      2) If Google's window doesn't pop up, press "Sign in with Google" on that page
+      3) Pick the Google account of that game account
+      4) The browser asks whether to open LumiDash: press Open, and the game window goes into the game by itself
+    One account at a time
+  • LumiDash remembers the login: next time, "Open" goes straight into the game
+  • Language (ไทย / English / 繁體中文): "Settings", top right of the Dashboard › first row "ภาษา · Language · 語言"
+  • This LumiDash opens the game through the invite link of the person who gave it to you (as the game's own "Invite" link does)
+    A new account (playing for 7 days or less) that tops up 600 baht (THB) in total in the game gets EXP Scroll x2 + Drop Scroll x2 from the game,
+    and the one who invited gets a reward · accounts older than 7 days, or already tied to someone else's code, aren't affected
+
+
+3. Several accounts
+-------------------
+  • Press "Add" in the Dashboard to add an account (up to 10), then log in to that game account in its new window
+  • Don't log in to the same game account in two of them
+  • The game's rule: one IP plays 3 characters at once for free. Past 3, every one needs Premium,
+    or those without get no EXP or drops and can't trade, use the market or sell to NPCs (or can't get into the game at all)
+    Phones, other PCs, or the game open in a browser on the same internet count too
+  • LumiDash checks this for you: a 4th account and up opens only when every open account is in the game and has Premium
+    If not, a box says which accounts have no Premium · an account in the game without Premium while more than 3 are open gets a notification,
+    and you're told 30 minutes before any account's Premium runs out
+    (LumiDash sees only its own accounts: count phones and other PCs yourself)
+  • A game window's title says which account it is, such as "Account 2 · character name"
+
+
+4. Hide game and Close game (not the same)
+------------------------------------------
+  • Hide game = the game plays on and Auto Play keeps going; only the window goes away
+      - While a game is open, the PC doesn't go to sleep for being idle (the screen still turns off as set), so the game can play all night
+        To let the PC sleep: quit LumiDash, or put it to sleep yourself
+      - Press "Hide game" next to the character's name in the Dashboard (one account at a time), and "Go to game" to bring it back
+      - Or click the LumiDash icon at the bottom right of the screen to hide/show every account at once
+        (no icon there? press the ^ arrow next to the clock)
+  • Close game = the character leaves the game and Auto Play stops
+      - The "Close game" button in the Dashboard (it asks first), or the X of the game window
+      - The account stays on the list: press "Open" to play again
+  • Quitting the program: right-click the LumiDash icon at the bottom right and choose "Quit"
+
+
+5. Notifications
+----------------
+  • LumiDash notifies you when: an account is disconnected and not back within a minute, the character dies,
+    Auto Play seems to have stopped (no hits and no skills for 5 minutes), someone whispers, someone invites you to a party, an item runs low
+  • While something is still wrong, the icon at the bottom right has a red dot. Click a notification to go to that account's game window
+  • Watching potions or items: Dashboard › "Bag" tab › press the item › tick "Tell me below" and enter a count
+  • Potions used: the "Bag" tab says how many bottles of each potion go per hour, how many you pick up, and when you'll run out; it shows after 5 minutes of play
+  • Notifications to Telegram too, if you like (optional: the Windows ones stay as they are)
+      1) In Telegram, talk to @BotFather, type /newbot and name your bot: you get a KEY
+      2) Settings › "Telegram" tab › paste the KEY and press "Connect"
+      3) Press "Open chat with the bot", then START in Telegram (or send it anything): LumiDash connects by itself, and the bot says hello
+    From then on, what is switched on pops up both in Windows and in Telegram · it sends only when there's a notification, so it doesn't slow the game
+    Notifications (character names, whispers) pass through Telegram's servers · don't tell anyone your KEY · press "Disconnect" when you stop using it
+    If Settings says "The Telegram account that gets the notifications has blocked this bot" (say, the bot was stopped or blocked while deleting the chat):
+      press "Open chat with the bot", then Restart or Unblock in Telegram: LumiDash notices and carries on, with no new KEY
+  • Each kind on or off, the minutes, and the "Test notification" button are in the "Notifications" tab of Settings ("Settings", top right of the Dashboard)
+    If the test shows nothing, check that Windows' Do not disturb is off
+
+
+6. A hot or slow PC
+-------------------
+  • A hidden game still draws as if on screen: 3 accounts open are like 3 games on screen
+    Every account plays at full speed, hidden, minimized or covered: LumiDash slows none of them
+  • What helps most: in the game, open its settings, and at "Battery saver screen" choose "After 1 min without a tap", for each account
+    After a minute without touching the game it stops drawing, while Auto Play goes on and the Dashboard still sees everything ("Slide to return to the game" to come back)
+    Meanwhile the game page uses about a quarter of the CPU, and LumiDash lowers that page's memory by itself
+  • In the game, set "FPS limit" to 30 and "Visual quality" to low, for each account
+  • The Dashboard needn't stay open: closed, the games play on and notifications still work
+    To open it again: right-click the LumiDash icon at the bottom right › Dashboard (or Ctrl+Shift+D in a game window)
+  • A laptop with a separate graphics card, if the game is slow: Windows Settings › System › Display › Graphics
+    › add msedgewebview2.exe (in C:\Program Files (x86)\Microsoft\EdgeWebView\Application\<version number>) and choose High performance
+    Smoother, but hotter and harder on the battery
+
+
+7. Updates and uninstalling
+---------------------------
+  • LumiDash updates itself: it looks when it starts and every 15 minutes. When there's a new version, a window says what's new
+    (it doesn't take the keyboard from the game: its taskbar button flashes)
+      - Press "Update": LumiDash downloads it, closes, installs it and opens again by itself (about a minute), with the open accounts opened again
+        The characters leave the game for a moment. If you're in the middle of something, press "Later"
+      - After "Later", the update waits on the gold "Update <version>" button at the top right of the Dashboard: press it when ready
+      - To look yourself: right-click the LumiDash icon at the bottom right › "Check for updates", or in Settings
+  • Got a new installer yourself (or from https://github.com/popodai/lumidash/releases/latest)? Install it over the old one:
+    logins and settings stay (if LumiDash is open, the installer asks and closes it)
+  • From an older version (0.4.x): every account's login, the game's settings and the Telegram KEY come along, with nothing to set again;
+    the old version's leftovers are deleted, freeing hundreds of MB
+    LumiDash checks the signature of every update before installing it: if it doesn't match, it isn't installed
+  • Uninstalling: Windows Settings › Apps, find LumiDash and press Uninstall
+    Logins and settings stay in %APPDATA%\LumiDash: delete that folder too to remove everything
+
+
+Shortcuts (in LumiDash's windows)
+  Ctrl+Shift+D   Dashboard on/off
+  F11            full screen
+  Ctrl+R         reload the game page (when the game is stuck)
+
+
+
+====================================================================
+
+LumiDash · 玩家簡易說明
+=======================
+
+LumiDash 是粉絲自製的程式，用來同時玩多個 Lumivara Online 帳號。非官方，與遊戲開發商無關。
+
+  • 可以同時開多個帳號，每個帳號有自己的視窗和登入（依遊戲規定，超過 3 個帳號需要 Premium，見第 3 點）
+  • 一個 Dashboard 看所有帳號：HP/SP/EXP、每小時 EXP、到下一級的時間、地圖、附近的怪物、隊伍、聊天、背包
+  • 帳號需要你處理時會跳出通知，例如斷線、死亡或 Auto Play 停了
+  • 只讀取資料，不會替你點擊或操作（Auto Play 是遊戲本身的功能）
+
+有問題請問把程式傳給你的人，不要問遊戲的工作人員，因為這不是他們的程式。
+
+
+1. 安裝
+-------
+  • 最新版本在 https://github.com/popodai/lumidash/releases/latest
+    只要下載「LumiDash-Setup-<版本>.exe」這一個檔案（「latest.yml」是程式自動更新用的，不用下載）
+  • 不用另外安裝其他程式。支援 64 位元的 Windows 10 和 Windows 11，不需要系統管理員權限
+    遊戲在 Windows 的 Microsoft Edge WebView2 上執行，Windows 11 已內建，幾乎所有 Windows 10 也都有
+    如果電腦還沒有，第一次開啟 LumiDash 時會詢問，然後從 Microsoft 下載並自動安裝（需要網路，只要幾分鐘）
+  • 對「LumiDash-Setup-….exe」按兩下
+  • 如果瀏覽器下載時警告這個檔案不常被下載，請選擇保留（保留／仍要保留）
+  • Windows 可能會跳出藍色的「Windows 已保護您的電腦」，因為程式還沒有程式碼簽章：
+    按「其他資訊」，再按出現的「仍要執行」
+  • 一直按「下一步」到完成（用預設值就好，不需要系統管理員權限），桌面和開始功能表會出現 LumiDash 圖示
+
+
+2. 第一次開啟與登入
+-------------------
+  • 開啟 LumiDash 會看到 Dashboard 和「帳號 1」，按上面的「開啟」，遊戲視窗就會出現
+  • 在遊戲視窗登入，跟在網頁上玩一樣
+  • 使用 Google 登入要在電腦的瀏覽器完成，因為 Google 不允許在這類程式裡登入：
+      1) 在遊戲視窗按 Google 登入（Sign in with Google），瀏覽器會開啟 LumiDash 的「使用 Google 登入 Lumivara Online」頁面
+      2) 如果 Google 的視窗沒有跳出來，按頁面上的「使用 Google 登入」
+      3) 選對這個遊戲帳號的 Google 帳戶
+      4) 瀏覽器詢問是否開啟 LumiDash 時，按「開啟」，遊戲視窗就會自動進入遊戲
+    一次一個帳號
+  • 登入後 LumiDash 會記住，下次按「開啟」就能直接進入遊戲
+  • 語言（ไทย / English / 繁體中文）：Dashboard 右上角的「設定」› 第一列「ภาษา · Language · 語言」
+    Windows 是中文的電腦，第一次開啟就是中文
+  • 這個 LumiDash 會用把程式傳給你的人的邀請連結開啟遊戲（就跟遊戲裡的「邀請好友」連結一樣）
+    依遊戲的規定，新帳號（開始玩 7 天內）在遊戲中累計儲值滿 600 泰銖（THB），遊戲會送你 EXP Scroll x2 + Drop Scroll x2，
+    邀請的人也會得到獎勵 · 已經玩超過 7 天，或已綁定別人邀請碼的帳號，不受影響
+
+
+3. 多個帳號
+-----------
+  • 在 Dashboard 按「新增」加入帳號（最多 10 個），然後在新的視窗登入那個遊戲帳號
+  • 不要在兩個帳號登入同一個遊戲帳號
+  • 遊戲規定：同一個 IP 可以免費同時玩 3 個角色。超過 3 個時，每個角色都需要 Premium，
+    否則沒有 Premium 的角色拿不到 EXP 和掉落物，也不能交易、使用市場或賣東西給 NPC（甚至無法進入遊戲）
+    使用同一個網路的手機、其他電腦，或在瀏覽器開的遊戲也會算進去
+  • LumiDash 會幫你檢查這個規定：所有開著的帳號都進入遊戲並且有 Premium 時，才能開第 4 個以上的帳號
+    還不符合時，會跳出視窗說明哪些帳號沒有 Premium · 開超過 3 個帳號時，沒有 Premium 的帳號進入遊戲會跳出通知，
+    任何帳號的 Premium 到期前 30 分鐘也會提醒
+    （LumiDash 只看得到程式裡的帳號，手機或其他電腦要自己算）
+  • 遊戲視窗的標題會顯示是哪個帳號，例如「帳號 2 · 角色名稱」
+
+
+4. 隱藏遊戲與關閉遊戲（不一樣）
+-------------------------------
+  • 隱藏遊戲 = 遊戲繼續進行，Auto Play 繼續跑，只是視窗不見了
+      - 遊戲開著的時候，電腦不會因為沒操作而自動睡眠（螢幕照常會關），所以遊戲可以整晚一直玩
+        想讓電腦睡眠：結束 LumiDash，或自己按睡眠
+      - 在 Dashboard 角色名稱旁按「隱藏遊戲」（一次一個帳號），按「前往遊戲」叫回來
+      - 或按螢幕右下角的 LumiDash 圖示，一次隱藏／顯示所有帳號
+        （看不到圖示的話，按時鐘旁的 ^ 箭頭）
+  • 關閉遊戲 = 角色離開遊戲，Auto Play 停止
+      - Dashboard 的「關閉遊戲」按鈕（關閉前會先詢問），或遊戲視窗的 X
+      - 帳號會留在清單上，按「開啟」就能再進入
+  • 結束程式：在右下角的 LumiDash 圖示上按右鍵，選擇「結束」
+
+
+5. 通知
+-------
+  • LumiDash 會在這些時候跳出通知：斷線且 1 分鐘內沒有重新連線、角色死亡、
+    Auto Play 好像停了（5 分鐘沒有攻擊也沒有用技能）、有人密語、有人邀請加入隊伍、物品快用完
+  • 狀況還沒解除時，右下角的圖示會有紅點。點通知就能前往那個帳號的遊戲視窗
+  • 監看藥水或物品：Dashboard ›「背包」分頁 › 點物品 › 勾選「低於此數時提醒」並輸入數量
+  • 藥水用量：「背包」分頁會顯示每種藥水每小時用幾瓶、撿到多少，以及還能撐多久，玩滿 5 分鐘後開始顯示
+  • 也可以把通知傳到 Telegram（不設定也沒關係，Windows 通知照常）
+      1) 在 Telegram 找 @BotFather，輸入 /newbot 並替機器人取名，就會拿到 KEY
+      2) 設定 ›「Telegram」分頁 › 貼上 KEY 後按「連線」
+      3) 按「開啟與機器人的聊天」，再到 Telegram 按 START（或隨便傳一則訊息），程式會自動連線，機器人也會傳訊息打招呼
+    之後開啟的通知會同時出現在 Windows 和 Telegram · 只在有通知時才傳送，不會讓遊戲變慢
+    通知內容（角色名稱、密語）會經過 Telegram 的伺服器 · 不要把 KEY 告訴任何人 · 不用時按「中斷連線」
+    如果設定頁面顯示「接收通知的 Telegram 帳號封鎖了這個機器人」（例如刪除聊天時不小心停止或封鎖了機器人）：
+      按「開啟與機器人的聊天」，然後在 Telegram 按 Restart 或 Unblock，程式會自己發現並繼續傳送，不用重新輸入 KEY
+  • 各項通知的開關、分鐘數和「測試通知」按鈕，都在設定的「通知」分頁（Dashboard 右上角的「設定」）
+    測試後沒有出現的話，請確認 Windows 的「勿打擾」沒有開啟
+
+
+6. 電腦很熱或很卡
+-----------------
+  • 隱藏的遊戲還是會像在螢幕上一樣繪製畫面，開 3 個帳號就等於開 3 個遊戲畫面
+    不管隱藏、最小化或被其他視窗擋住，每個帳號都全速執行，LumiDash 不會讓任何一個變慢
+  • 最有效的方法：在遊戲裡開啟設定，在「省電黑屏」選擇「1 分鐘未觸碰後」，每個帳號都要設定
+    1 分鐘沒碰遊戲，遊戲就會停止繪製畫面，但 Auto Play 繼續進行，Dashboard 也照樣看得到所有資料（「滑動回到遊戲」即可回來）
+    這段期間遊戲頁面的 CPU 用量只剩約四分之一，LumiDash 也會自動降低那個頁面的記憶體用量
+  • 在遊戲裡把「FPS上限」設為 30，「畫質」調到最低，每個帳號都要設定
+  • Dashboard 不用一直開著：關掉後遊戲照樣進行，通知也照常運作
+    重新開啟：在右下角的 LumiDash 圖示上按右鍵 › Dashboard（或在遊戲視窗按 Ctrl+Shift+D）
+  • 有獨立顯示卡的筆電，如果遊戲很卡：Windows 的「設定 › 系統 › 顯示器 › 圖形」
+    › 新增 msedgewebview2.exe（在 C:\Program Files (x86)\Microsoft\EdgeWebView\Application\<版本號>）並選擇「高效能」
+    會更順，但電腦會比較熱，也比較耗電
+
+
+7. 更新與解除安裝
+-----------------
+  • LumiDash 會自動更新：啟動時和每 15 分鐘檢查一次。有新版本時，會跳出視窗說明新內容
+    （不會搶走遊戲的鍵盤輸入，工作列上的按鈕會閃爍）
+      - 按「更新」，LumiDash 會下載、關閉、安裝並自動重新開啟（約 1 分鐘），開著的帳號也會一起重新開啟
+        這段期間角色會暫時離開遊戲。正在忙的話，可以按「稍後」
+      - 按「稍後」後，更新會在 Dashboard 右上角的金色「更新 <版本>」按鈕等你，準備好再按
+      - 自己檢查：在右下角的 LumiDash 圖示上按右鍵 ›「檢查更新」，或到設定頁面
+  • 自己拿到新版本的安裝檔（或從 https://github.com/popodai/lumidash/releases/latest 下載），直接安裝覆蓋即可
+    登入資料和設定都會保留（如果 LumiDash 開著，安裝程式會詢問並幫你關閉）
+  • 從舊版（0.4.x）更新：所有帳號的登入、遊戲設定和 Telegram KEY 都會自動帶過來，不用重新設定；
+    舊版留下的垃圾檔案會自動刪除，釋放數百 MB 空間
+    LumiDash 每次安裝更新前都會檢查簽章，簽章不符就不會安裝
+  • 解除安裝：Windows 的「設定 › 應用程式」，找到 LumiDash 後按「解除安裝」
+    登入資料和設定仍保存在 %APPDATA%\LumiDash，要全部刪除的話，把這個資料夾也刪掉
+
+
+快速鍵（在 LumiDash 的視窗中按）
+  Ctrl+Shift+D   開啟／關閉 Dashboard
+  F11            全螢幕
+  Ctrl+R         重新載入遊戲頁面（遊戲卡住時）
