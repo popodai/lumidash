@@ -20,6 +20,7 @@ LumiDash เป็นโปรแกรมแฟนเมดสำหรับ�
 ----------
   • ตัวล่าสุดดาวน์โหลดได้ที่ https://github.com/popodai/lumidash/releases/latest
     เอาไฟล์ "LumiDash-Setup-<เวอร์ชัน>.exe" ไฟล์เดียว ("latest.yml" โปรแกรมใช้อัปเดตตัวเอง ไม่ต้องโหลด)
+    GitHub เข้าไม่ได้ ใช้ลิงก์สำรอง https://lumidash.pages.dev ไฟล์เดียวกัน (ตัวจริงมีแค่ 2 ที่นี้)
   • ไม่ต้องลงโปรแกรมอื่นเพิ่ม ใช้ได้กับ Windows 10 หรือ Windows 11 แบบ 64 บิต ไม่ต้องใช้สิทธิ์ admin
     เกมทำงานบน Microsoft Edge WebView2 ของ Windows ซึ่ง Windows 11 มีอยู่แล้ว และ Windows 10 เกือบทุกเครื่องก็มี
     ถ้าเครื่องไหนยังไม่มี เปิด LumiDash ครั้งแรกจะถาม แล้วดาวน์โหลดจาก Microsoft และติดตั้งให้เอง (ต้องต่อเน็ต ใช้เวลาไม่กี่นาที)
@@ -117,7 +118,7 @@ LumiDash เป็นโปรแกรมแฟนเมดสำหรับ�
         ระหว่างนั้นตัวละครออกจากเกมชั่วครู่ ถ้ากำลังเล่นอยู่ กด "ไว้ทีหลัง" ก็ได้
       - กด "ไว้ทีหลัง" แล้ว อัปเดตรอไว้ที่ปุ่มสีทอง "อัปเดต <เวอร์ชัน>" มุมขวาบนของ Dashboard กดเมื่อพร้อม
       - ตรวจเองได้: คลิกขวาไอคอน LumiDash มุมขวาล่าง › "ตรวจหาอัปเดต" หรือที่หน้าตั้งค่า
-  • ได้ไฟล์ติดตั้งเวอร์ชันใหม่มาเอง (หรือโหลดจาก https://github.com/popodai/lumidash/releases/latest) ติดตั้งทับได้เลย
+  • ได้ไฟล์ติดตั้งเวอร์ชันใหม่มาเอง (หรือโหลดจาก https://github.com/popodai/lumidash/releases/latest หรือ https://lumidash.pages.dev) ติดตั้งทับได้เลย
     login และการตั้งค่าอยู่ครบ (ถ้า LumiDash เปิดอยู่ ตัวติดตั้งจะถามแล้วปิดให้)
   • อัปเดตจากรุ่นก่อน (0.4.x): login ทุกบัญชี การตั้งค่าเกม และ KEY Telegram ตามมาเอง ไม่ต้องตั้งใหม่ ส่วนไฟล์ขยะของรุ่นเก่าโปรแกรมลบให้เอง คืนพื้นที่หลายร้อย MB
     โปรแกรมตรวจลายเซ็นของอัปเดตก่อนติดตั้งทุกครั้ง ถ้าลายเซ็นไม่ตรงจะไม่ติดตั้ง
@@ -151,6 +152,7 @@ Questions or problems: ask the person who gave you this program, not the game's 
 -------------
   • The latest version is at https://github.com/popodai/lumidash/releases/latest
     Take the one file "LumiDash-Setup-<version>.exe" ("latest.yml" is for LumiDash's own updates: no need to download it)
+    GitHub down? The same files are at https://lumidash.pages.dev (the real one is in these two places only)
   • Nothing else to install. It runs on 64-bit Windows 10 or Windows 11, with no administrator rights
     The game runs on Windows' Microsoft Edge WebView2, which Windows 11 has, and almost every Windows 10 PC too
     If a PC doesn't have it, LumiDash asks on its first start, then downloads it from Microsoft and installs it (needs the internet, a few minutes)
@@ -248,7 +250,7 @@ Questions or problems: ask the person who gave you this program, not the game's 
         The characters leave the game for a moment. If you're in the middle of something, press "Later"
       - After "Later", the update waits on the gold "Update <version>" button at the top right of the Dashboard: press it when ready
       - To look yourself: right-click the LumiDash icon at the bottom right › "Check for updates", or in Settings
-  • Got a new installer yourself (or from https://github.com/popodai/lumidash/releases/latest)? Install it over the old one:
+  • Got a new installer yourself (or from https://github.com/popodai/lumidash/releases/latest or https://lumidash.pages.dev)? Install it over the old one:
     logins and settings stay (if LumiDash is open, the installer asks and closes it)
   • From an older version (0.4.x): every account's login, the game's settings and the Telegram KEY come along, with nothing to set again;
     the old version's leftovers are deleted, freeing hundreds of MB
@@ -283,6 +285,7 @@ LumiDash 是粉絲自製的程式，用來同時玩多個 Lumivara Online 帳號
 -------
   • 最新版本在 https://github.com/popodai/lumidash/releases/latest
     只要下載「LumiDash-Setup-<版本>.exe」這一個檔案（「latest.yml」是程式自動更新用的，不用下載）
+    GitHub 打不開時，可以到備用網址 https://lumidash.pages.dev 下載，檔案相同（正式版只在這兩個地方）
   • 不用另外安裝其他程式。支援 64 位元的 Windows 10 和 Windows 11，不需要系統管理員權限
     遊戲在 Windows 的 Microsoft Edge WebView2 上執行，Windows 11 已內建，幾乎所有 Windows 10 也都有
     如果電腦還沒有，第一次開啟 LumiDash 時會詢問，然後從 Microsoft 下載並自動安裝（需要網路，只要幾分鐘）
@@ -381,7 +384,7 @@ LumiDash 是粉絲自製的程式，用來同時玩多個 Lumivara Online 帳號
         這段期間角色會暫時離開遊戲。正在忙的話，可以按「稍後」
       - 按「稍後」後，更新會在 Dashboard 右上角的金色「更新 <版本>」按鈕等你，準備好再按
       - 自己檢查：在右下角的 LumiDash 圖示上按右鍵 ›「檢查更新」，或到設定頁面
-  • 自己拿到新版本的安裝檔（或從 https://github.com/popodai/lumidash/releases/latest 下載），直接安裝覆蓋即可
+  • 自己拿到新版本的安裝檔（或從 https://github.com/popodai/lumidash/releases/latest 或 https://lumidash.pages.dev 下載），直接安裝覆蓋即可
     登入資料和設定都會保留（如果 LumiDash 開著，安裝程式會詢問並幫你關閉）
   • 從舊版（0.4.x）更新：所有帳號的登入、遊戲設定和 Telegram KEY 都會自動帶過來，不用重新設定；
     舊版留下的垃圾檔案會自動刪除，釋放數百 MB 空間
