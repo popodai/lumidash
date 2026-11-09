@@ -13,6 +13,8 @@
 ไปที่ [Release ล่าสุด](https://github.com/popodai/lumidash/releases/latest) แล้วดาวน์โหลด `LumiDash-Setup-<เวอร์ชัน>.exe`
 (ไม่ต้องโหลด `latest.yml` ไฟล์นั้นโปรแกรมใช้อัปเดตตัวเอง · "อ่านก่อนติดตั้ง.txt" คือคู่มือเดียวกับข้างบน)
 
+GitHub เข้าไม่ได้ โหลดที่ลิงก์สำรอง **[lumidash.pages.dev](https://lumidash.pages.dev)** ได้ ไฟล์เดียวกันทุกไบต์ ตัวจริงมีแค่ 2 ที่นี้
+
 - Windows อาจขึ้น "Windows protected your PC" เพราะโปรแกรมยังไม่ได้เซ็นรับรอง: กด More info แล้วกด Run anyway
 - โปรแกรมมี 3 ภาษา: ไทย English 繁體中文 เปลี่ยนได้ที่ ตั้งค่า › ทั่วไป › "ภาษา · Language · 語言"
 - ติดตั้งแล้ว LumiDash อัปเดตตัวเองเมื่อมีเวอร์ชันใหม่ (ถามก่อนทุกครั้ง)
@@ -30,6 +32,7 @@ Here are LumiDash's installer, its update files and the players' guide, for Wind
 **Read first: [the players' guide](./%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87.txt)** (Thai, English, Traditional Chinese): installing, logging in several accounts, hiding the game, notifications, a slow PC and updates
 
 - Download: go to the [latest release](https://github.com/popodai/lumidash/releases/latest) and download `LumiDash-Setup-<version>.exe` (`latest.yml` is for LumiDash's own updates: no need to download it)
+- GitHub down? The same files are at **[lumidash.pages.dev](https://lumidash.pages.dev)**, byte for byte. These two places are the only real ones
 - Windows may say "Windows protected your PC" because the program isn't code-signed yet: press More info, then Run anyway
 - LumiDash speaks Thai, English and Traditional Chinese: Settings › General › "ภาษา · Language · 語言"
 - Logging in with Google happens in your browser: press "Open LumiDash" when it asks
@@ -46,6 +49,7 @@ LumiDash 是粉絲自製的 Lumivara Online 多帳號程式，非官方，與遊
 **安裝前請先閱讀：[玩家說明](./%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87.txt)**（泰文、英文、繁體中文）：安裝、多帳號登入、隱藏遊戲、通知、電腦很卡時怎麼辦，以及更新
 
 - 下載：到[最新的 Release](https://github.com/popodai/lumidash/releases/latest) 下載 `LumiDash-Setup-<版本>.exe`（`latest.yml` 是程式自動更新用的，不用下載）
+- GitHub 打不開時，可以到備用網址 **[lumidash.pages.dev](https://lumidash.pages.dev)** 下載，檔案完全相同。正式版只在這兩個地方
 - Windows 可能會顯示「Windows 已保護您的電腦」，因為程式還沒有簽章：按「其他資訊」，再按「仍要執行」
 - 程式有繁體中文：Windows 是中文的電腦第一次開啟就是中文，也可以在「設定 › 一般 › ภาษา · Language · 語言」切換
 - 使用 Google 登入時，會在電腦的瀏覽器完成，瀏覽器詢問時按「開啟 LumiDash」
