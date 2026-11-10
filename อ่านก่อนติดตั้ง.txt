@@ -79,7 +79,7 @@ LumiDash เป็นโปรแกรมแฟนเมดสำหรับ�
 5. แจ้งเตือน
 ------------
   • LumiDash เด้งแจ้งเตือนเมื่อ: หลุดแล้วไม่ต่อกลับเองใน 1 นาที, ตัวละครตาย,
-    Auto Play น่าจะหยุด (ไม่ได้ตีและไม่ได้ใช้สกิลอะไรเลย 5 นาที), มีคนกระซิบ, มีคนชวนเข้าปาร์ตี้, ไอเทมใกล้หมด
+    Auto Play น่าจะหยุด (ไม่ได้ตีอะไรเลย 5 นาที · ตัวที่ตั้ง Auto Play เป็น "บัฟอย่างเดียว ไม่โจมตี" นับจากการใช้สกิล), มีคนกระซิบ, มีคนชวนเข้าปาร์ตี้, ไอเทมใกล้หมด
   • ระหว่างที่ยังมีเรื่อง ไอคอนมุมขวาล่างจะมีจุดแดง คลิกแจ้งเตือนเพื่อไปที่หน้าต่างเกมของบัญชีนั้น
   • เฝ้ายาหรือไอเทม: Dashboard › แท็บ "กระเป๋า" › กดที่ไอเทม › ติ๊ก "เตือนเมื่อน้อยกว่า" แล้วใส่จำนวน
   • ยาที่ใช้ไป: แท็บ "กระเป๋า" บอกว่ายาแต่ละชนิดใช้กี่ขวดต่อชั่วโมง เก็บได้เท่าไร และจะหมดในอีกนานแค่ไหน เริ่มแสดงเมื่อเล่นครบ 5 นาที
@@ -211,7 +211,7 @@ Questions or problems: ask the person who gave you this program, not the game's 
 5. Notifications
 ----------------
   • LumiDash notifies you when: an account is disconnected and not back within a minute, the character dies,
-    Auto Play seems to have stopped (no hits and no skills for 5 minutes), someone whispers, someone invites you to a party, an item runs low
+    Auto Play seems to have stopped (no hits for 5 minutes; for a character whose Auto Play is set to buff only, no skills), someone whispers, someone invites you to a party, an item runs low
   • While something is still wrong, the icon at the bottom right has a red dot. Click a notification to go to that account's game window
   • Watching potions or items: Dashboard › "Bag" tab › press the item › tick "Tell me below" and enter a count
   • Potions used: the "Bag" tab says how many bottles of each potion go per hour, how many you pick up, and when you'll run out; it shows after 5 minutes of play
@@ -345,7 +345,7 @@ LumiDash 是粉絲自製的程式，用來同時玩多個 Lumivara Online 帳號
 5. 通知
 -------
   • LumiDash 會在這些時候跳出通知：斷線且 1 分鐘內沒有重新連線、角色死亡、
-    Auto Play 好像停了（5 分鐘沒有攻擊也沒有用技能）、有人密語、有人邀請加入隊伍、物品快用完
+    Auto Play 好像停了（5 分鐘沒有攻擊；Auto Play 設成只施放增益、不攻擊的角色，則是沒有用技能）、有人密語、有人邀請加入隊伍、物品快用完
   • 狀況還沒解除時，右下角的圖示會有紅點。點通知就能前往那個帳號的遊戲視窗
   • 監看藥水或物品：Dashboard ›「背包」分頁 › 點物品 › 勾選「低於此數時提醒」並輸入數量
   • 藥水用量：「背包」分頁會顯示每種藥水每小時用幾瓶、撿到多少，以及還能撐多久，玩滿 5 分鐘後開始顯示
