@@ -8,7 +8,7 @@
 
 LumiDash เป็นโปรแกรมแฟนเมดสำหรับเล่น Lumivara Online หลายบัญชี ไม่เป็นทางการ ไม่เกี่ยวข้องกับผู้พัฒนาเกม
 
-  • เปิดเกมได้หลายบัญชีพร้อมกัน แต่ละบัญชีมีหน้าต่างและ login ของตัวเอง (เกินกว่า 3 บัญชีต้องมี Premium ตามกติกาของเกม ดูข้อ 3)
+  • เปิดเกมได้หลายบัญชีพร้อมกัน แต่ละบัญชีมีหน้าต่างและ login ของตัวเอง (เปิดได้ถึง 10 บัญชี · เกิน 3 บัญชี ตัวที่ไม่มี Premium จะไม่ได้ EXP และของดรอป ตามกติกาของเกม ดูข้อ 3)
   • มี Dashboard รวมทุกบัญชีไว้ที่เดียว: HP/SP/EXP, EXP ต่อชั่วโมง, เวลาถึงเลเวลถัดไป, แผนที่, มอนรอบตัว, ปาร์ตี้, แชท, กระเป๋า
   • เด้งแจ้งเตือนเมื่อบัญชีไหนต้องการคนดู เช่น หลุด ตาย หรือ Auto Play หยุด
   • อ่านข้อมูลอย่างเดียว ไม่ได้กดหรือเล่นอะไรแทน (Auto Play เป็นระบบของเกมเอง)
@@ -55,8 +55,8 @@ LumiDash เป็นโปรแกรมแฟนเมดสำหรับ�
   • กติกาของเกม: 1 IP เล่นฟรีพร้อมกันได้ 3 ตัว เกิน 3 ตัวเมื่อไร ทุกตัวต้องมี Premium
     ไม่งั้นตัวที่ไม่มี Premium ไม่ได้ EXP และของดรอป และเทรด/ตลาด/ขายของให้ NPC ไม่ได้ (หรือเข้าเกมไม่ได้เลย)
     มือถือ เครื่องอื่น หรือเกมที่เปิดในเบราว์เซอร์ ที่ใช้เน็ตเดียวกันนับรวมด้วย
-  • LumiDash เช็คกติกานี้ให้: จะเปิดบัญชีที่ 4 ขึ้นไปได้ เมื่อทุกบัญชีที่เปิดอยู่เข้าเกมแล้วและมี Premium
-    ถ้ายังไม่ผ่าน จะขึ้นกล่องบอกว่าบัญชีไหนยังไม่มี Premium · บัญชีที่เข้าเกมโดยไม่มี Premium ตอนเปิดเกิน 3 จะเด้งเตือน
+  • LumiDash ไม่ห้ามเปิดเกิน 3 บัญชี (เช่น เปิดตัวบัฟไว้เฉย ๆ): ตอนเปิดบัญชีที่ 4 จะขึ้นกล่องเตือนครั้งเดียว
+    ว่าบัญชีไหนยังไม่มี Premium แล้วเปิดให้เลย · บัญชีที่เข้าเกมโดยไม่มี Premium ตอนเปิดเกิน 3 จะเด้งเตือนและขึ้นป้ายที่การ์ด
     และเตือนก่อน Premium ของตัวไหนหมด 30 นาที
     (LumiDash เห็นแค่บัญชีในโปรแกรม มือถือหรือเครื่องอื่นต้องนับเอง)
   • ชื่อหน้าต่างเกมบอกว่าเป็นบัญชีไหน เช่น "บัญชี 2 · ชื่อตัวละคร"
@@ -79,7 +79,7 @@ LumiDash เป็นโปรแกรมแฟนเมดสำหรับ�
 5. แจ้งเตือน
 ------------
   • LumiDash เด้งแจ้งเตือนเมื่อ: หลุดแล้วไม่ต่อกลับเองใน 1 นาที, ตัวละครตาย,
-    Auto Play น่าจะหยุด (ไม่ได้ตีอะไรเลย 5 นาที · ตัวที่ตั้ง Auto Play เป็น "บัฟอย่างเดียว ไม่โจมตี" นับจากการใช้สกิล), มีคนกระซิบ, มีคนชวนเข้าปาร์ตี้, ไอเทมใกล้หมด
+    Auto Play น่าจะหยุด (ไม่ได้ตีอะไรเลย 5 นาที · ตัวที่ตั้ง Auto Play เป็น "บัฟอย่างเดียว ไม่โจมตี" นับจากการใช้สกิล), มีคนกระซิบ, มีคนชวนหรือขอเข้าปาร์ตี้, ไอเทมใกล้หมด
   • ระหว่างที่ยังมีเรื่อง ไอคอนมุมขวาล่างจะมีจุดแดง คลิกแจ้งเตือนเพื่อไปที่หน้าต่างเกมของบัญชีนั้น
   • เฝ้ายาหรือไอเทม: Dashboard › แท็บ "กระเป๋า" › กดที่ไอเทม › ติ๊ก "เตือนเมื่อน้อยกว่า" แล้วใส่จำนวน
   • ยาที่ใช้ไป: แท็บ "กระเป๋า" บอกว่ายาแต่ละชนิดใช้กี่ขวดต่อชั่วโมง เก็บได้เท่าไร และจะหมดในอีกนานแค่ไหน เริ่มแสดงเมื่อเล่นครบ 5 นาที
@@ -140,7 +140,7 @@ LumiDash · Player guide
 
 LumiDash is a fan-made program for playing Lumivara Online with several accounts. It is unofficial and not affiliated with the game's developer.
 
-  • Several accounts at once, each with its own window and login (more than 3 accounts need Premium, by the game's rules: see 3)
+  • Several accounts at once, each with its own window and login (up to 10 accounts · past 3, the ones without Premium get no EXP or drops, by the game's rules: see 3)
   • One Dashboard for every account: HP/SP/EXP, EXP per hour, time to the next level, the map, monsters nearby, party, chat, bag
   • A notification when an account needs you, such as disconnected, dead, or Auto Play stopped
   • It only reads: it never clicks or plays for you (Auto Play is the game's own)
@@ -187,8 +187,8 @@ Questions or problems: ask the person who gave you this program, not the game's 
   • The game's rule: one IP plays 3 characters at once for free. Past 3, every one needs Premium,
     or those without get no EXP or drops and can't trade, use the market or sell to NPCs (or can't get into the game at all)
     Phones, other PCs, or the game open in a browser on the same internet count too
-  • LumiDash checks this for you: a 4th account and up opens only when every open account is in the game and has Premium
-    If not, a box says which accounts have no Premium · an account in the game without Premium while more than 3 are open gets a notification,
+  • LumiDash doesn't stop you opening more than 3 (a character that only gives buffs, say): as the 4th opens, a box says once
+    which accounts have no Premium, and it opens anyway · an account in the game without Premium while more than 3 are open gets a notification and a mark on its card,
     and you're told 30 minutes before any account's Premium runs out
     (LumiDash sees only its own accounts: count phones and other PCs yourself)
   • A game window's title says which account it is, such as "Account 2 · character name"
@@ -211,7 +211,7 @@ Questions or problems: ask the person who gave you this program, not the game's 
 5. Notifications
 ----------------
   • LumiDash notifies you when: an account is disconnected and not back within a minute, the character dies,
-    Auto Play seems to have stopped (no hits for 5 minutes; for a character whose Auto Play is set to buff only, no skills), someone whispers, someone invites you to a party, an item runs low
+    Auto Play seems to have stopped (no hits for 5 minutes; for a character whose Auto Play is set to buff only, no skills), someone whispers, someone invites you to a party or asks to join yours, an item runs low
   • While something is still wrong, the icon at the bottom right has a red dot. Click a notification to go to that account's game window
   • Watching potions or items: Dashboard › "Bag" tab › press the item › tick "Tell me below" and enter a count
   • Potions used: the "Bag" tab says how many bottles of each potion go per hour, how many you pick up, and when you'll run out; it shows after 5 minutes of play
@@ -273,7 +273,7 @@ LumiDash · 玩家簡易說明
 
 LumiDash 是粉絲自製的程式，用來同時玩多個 Lumivara Online 帳號。非官方，與遊戲開發商無關。
 
-  • 可以同時開多個帳號，每個帳號有自己的視窗和登入（依遊戲規定，超過 3 個帳號需要 Premium，見第 3 點）
+  • 可以同時開多個帳號，每個帳號有自己的視窗和登入（最多 10 個帳號 · 依遊戲規定，超過 3 個時沒有 Premium 的角色拿不到 EXP 和掉落物，見第 3 點）
   • 一個 Dashboard 看所有帳號：HP/SP/EXP、每小時 EXP、到下一級的時間、地圖、附近的怪物、隊伍、聊天、背包
   • 帳號需要你處理時會跳出通知，例如斷線、死亡或 Auto Play 停了
   • 只讀取資料，不會替你點擊或操作（Auto Play 是遊戲本身的功能）
@@ -321,8 +321,8 @@ LumiDash 是粉絲自製的程式，用來同時玩多個 Lumivara Online 帳號
   • 遊戲規定：同一個 IP 可以免費同時玩 3 個角色。超過 3 個時，每個角色都需要 Premium，
     否則沒有 Premium 的角色拿不到 EXP 和掉落物，也不能交易、使用市場或賣東西給 NPC（甚至無法進入遊戲）
     使用同一個網路的手機、其他電腦，或在瀏覽器開的遊戲也會算進去
-  • LumiDash 會幫你檢查這個規定：所有開著的帳號都進入遊戲並且有 Premium 時，才能開第 4 個以上的帳號
-    還不符合時，會跳出視窗說明哪些帳號沒有 Premium · 開超過 3 個帳號時，沒有 Premium 的帳號進入遊戲會跳出通知，
+  • LumiDash 不會阻止你開超過 3 個帳號（例如只掛著補狀態的角色）：開第 4 個帳號時會跳出一次視窗，
+    說明哪些帳號沒有 Premium，然後照樣開啟 · 開超過 3 個帳號時，沒有 Premium 的帳號進入遊戲會跳出通知並在卡片上標示，
     任何帳號的 Premium 到期前 30 分鐘也會提醒
     （LumiDash 只看得到程式裡的帳號，手機或其他電腦要自己算）
   • 遊戲視窗的標題會顯示是哪個帳號，例如「帳號 2 · 角色名稱」
@@ -345,7 +345,7 @@ LumiDash 是粉絲自製的程式，用來同時玩多個 Lumivara Online 帳號
 5. 通知
 -------
   • LumiDash 會在這些時候跳出通知：斷線且 1 分鐘內沒有重新連線、角色死亡、
-    Auto Play 好像停了（5 分鐘沒有攻擊；Auto Play 設成只施放增益、不攻擊的角色，則是沒有用技能）、有人密語、有人邀請加入隊伍、物品快用完
+    Auto Play 好像停了（5 分鐘沒有攻擊；Auto Play 設成只施放增益、不攻擊的角色，則是沒有用技能）、有人密語、有人邀請或申請加入隊伍、物品快用完
   • 狀況還沒解除時，右下角的圖示會有紅點。點通知就能前往那個帳號的遊戲視窗
   • 監看藥水或物品：Dashboard ›「背包」分頁 › 點物品 › 勾選「低於此數時提醒」並輸入數量
   • 藥水用量：「背包」分頁會顯示每種藥水每小時用幾瓶、撿到多少，以及還能撐多久，玩滿 5 分鐘後開始顯示
