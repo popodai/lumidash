@@ -57,7 +57,7 @@ LumiDash เป็นโปรแกรมแฟนเมดสำหรับ�
     มือถือ เครื่องอื่น หรือเกมที่เปิดในเบราว์เซอร์ ที่ใช้เน็ตเดียวกันนับรวมด้วย
   • LumiDash ไม่ห้ามเปิดเกิน 3 บัญชี (เช่น เปิดตัวบัฟไว้เฉย ๆ): ตอนเปิดบัญชีที่ 4 จะขึ้นกล่องเตือนครั้งเดียว
     ว่าบัญชีไหนยังไม่มี Premium แล้วเปิดให้เลย · บัญชีที่เข้าเกมโดยไม่มี Premium ตอนเปิดเกิน 3 จะเด้งเตือนและขึ้นป้ายที่การ์ด
-    และเตือนก่อน Premium ของตัวไหนหมด 30 นาที
+    และเตือนก่อน Premium ของตัวไหนหมด 30 นาที (เตือนครั้งเดียวต่อบัญชี ปิดได้ที่ ตั้งค่า › แจ้งเตือน › "เปิดเกิน 3 บัญชี" ป้ายที่การ์ดยังขึ้น)
     (LumiDash เห็นแค่บัญชีในโปรแกรม มือถือหรือเครื่องอื่นต้องนับเอง)
   • ชื่อหน้าต่างเกมบอกว่าเป็นบัญชีไหน เช่น "บัญชี 2 · ชื่อตัวละคร"
 
@@ -189,7 +189,7 @@ Questions or problems: ask the person who gave you this program, not the game's 
     Phones, other PCs, or the game open in a browser on the same internet count too
   • LumiDash doesn't stop you opening more than 3 (a character that only gives buffs, say): as the 4th opens, a box says once
     which accounts have no Premium, and it opens anyway · an account in the game without Premium while more than 3 are open gets a notification and a mark on its card,
-    and you're told 30 minutes before any account's Premium runs out
+    and you're told 30 minutes before any account's Premium runs out (once per account; switch it off in Settings › Notifications › "More than 3 accounts": the card still shows it)
     (LumiDash sees only its own accounts: count phones and other PCs yourself)
   • A game window's title says which account it is, such as "Account 2 · character name"
 
@@ -323,7 +323,7 @@ LumiDash 是粉絲自製的程式，用來同時玩多個 Lumivara Online 帳號
     使用同一個網路的手機、其他電腦，或在瀏覽器開的遊戲也會算進去
   • LumiDash 不會阻止你開超過 3 個帳號（例如只掛著補狀態的角色）：開第 4 個帳號時會跳出一次視窗，
     說明哪些帳號沒有 Premium，然後照樣開啟 · 開超過 3 個帳號時，沒有 Premium 的帳號進入遊戲會跳出通知並在卡片上標示，
-    任何帳號的 Premium 到期前 30 分鐘也會提醒
+    任何帳號的 Premium 到期前 30 分鐘也會提醒（每個帳號只提醒一次，可在 設定 › 通知 ›「超過 3 個帳號」關閉，卡片上仍會顯示）
     （LumiDash 只看得到程式裡的帳號，手機或其他電腦要自己算）
   • 遊戲視窗的標題會顯示是哪個帳號，例如「帳號 2 · 角色名稱」
 
